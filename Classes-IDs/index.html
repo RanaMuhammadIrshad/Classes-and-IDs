@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IDs and Classes</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <h1>Classes and IDs</h1>
+
+    <h2>Classes</h2>
+    <h3>Classes allows us to select more than 1 element</h3>
+
+    <!-- Emmet shortcut p.blue and p.blue*2 for 2 classes-->
+    <p class="blue">This will be blue</p>
+    <p class="red">This will be red</p>
+    <p class="orange">This will be orange</p>
+    <p class="pink">This will be pink</p>
+
+    <h2>ID</h2>
+    <h3>Selects a unique (only one) element</h3>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore quod
+      optio delectus temporibus placeat a asperiores vel velit! Nihil nulla quo
+      tempora magni. Quod mollitia quasi fuga hic beatae.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore quod
+      optio delectus temporibus placeat a asperiores vel velit! Nihil nulla quo
+      tempora magni. Quod mollitia quasi fuga hic beatae.
+    </p>
+    <p id="green">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tempore quod
+      optio delectus temporibus placeat a asperiores vel velit! Nihil nulla quo
+      tempora magni. Quod mollitia quasi fuga hic beatae.
+    </p>
+
+    <h2>Which styles will be applied?</h2>
+    <!-- id has precedence over the class -->
+    <p class="pink" id="yellow">A very short text</p>
+
+    <hr />
+
+    <p id="purple">
+      Beetroot water spinach okra water chestnut ricebean pea catsear courgette
+      summer purslane.
+    </p>
+
+    <p id="purple" class="limegreen">
+      Limegreen water spinach okra water chestnut ricebean pea catsear courgette
+      summer purslane.
+    </p>
+
+    <img class="resizeImg" src="/images/seaHorse.jpeg" alt="seaHorse" />
+  </body>
+</html>

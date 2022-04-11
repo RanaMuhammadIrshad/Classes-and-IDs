@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Intro</title>
+    <!-- external CSS-use the link tag -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Internal styles-use the style tag -->
+    <style>
+      h3 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Intro to CSS</h1>
+    <!-- inline style -->
+    <h2 style="color: blue">This is an h2 tag</h2>
+    <h3>add h3 here</h3>
+    <h4>add here h4</h4>
+    <h5>add here h5</h5>
+    <h6>add here h6</h6>
+
+    <p>This is first paragraph in CSS</p>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe, sapiente.
+    </p>
+
+    <p>
+      <!-- lorem2 shortcut for specific number of words -->
+      <!-- lorem*3 shortcut -->
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita
+      consequuntur praesentium laboriosam incidunt obcaecati perspiciatis rem
+      quae eius, corporis temporibus, nihil voluptatem neque numquam quod
+      tempore ipsa. Sapiente, velit neque. Fugit rem obcaecati non, aperiam
+      consequatur ullam error illum beatae dignissimos sunt pariatur provident
+      eos dolor odit qui itaque. Quam doloremque voluptas perferendis tempora
+      facere non quo minus temporibus tempore. Quisquam iure expedita
+      accusantium error incidunt sapiente eum repudiandae distinctio aliquid ad
+      nihil enim numquam asperiores veniam nam natus nobis dolores doloribus
+      consequuntur, facilis laboriosam aliquam magni exercitationem fugiat. Sed!
+    </p>
+
+    <!-- Lists -->
+    <h2>Ordered and unordered list</h2>
+    <p>Ordered lists are used when things need to happen in a specific order</p>
+    <!-- ol>li*4 -->
+    <ol>
+      <li>wake up</li>
+      <li>have breakfast</li>
+      <li>get dressed</li>
+      <li>start coding</li>
+    </ol>
+
+    <hr />
+    <p>
+      Unordered lists aer ideal when the order is not important (eg. grocery
+      list
+    </p>
+
+    <ul>
+      <li>water</li>
+      <li>bread</li>
+      <li>mango</li>
+    </ul>
+    <!-- Nested lists -->
+
+    <ul>
+      <li>
+        <div>Item</div>
+        <ul>
+          <li>Subitem A</li>
+          <li>subitem B</li>
+        </ul>
+      </li>
+    </ul>
+
+    <li>
+      <div>Item 2</div>
+      <!-- div element is allowed as a child of li -->
+      <ul>
+        <!-- you cannot add a div within a ul -->
+        <li>Subitem A</li>
+        <li>Subitem B</li>
+      </ul>
+    </li>
+
+    <!-- list like , 1 ,2, 2.1,2.2,3.1, 3.2, 3.2.1,3.2.2  and so on -->
+
+    <ol>
+      <li>one</li>
+      <li>
+        two
+        <ol>
+          <li>two.one</li>
+          <li>two.two</li>
+          <li>two.three</li>
+        </ol>
+      </li>
+      <li>
+        three
+        <ol>
+          <li>three.one</li>
+          <li>
+            three.two
+            <ol>
+              <li>three.two.one</li>
+              <li>three.two.two</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li>four</li>
+    </ol>
+  </body>
+</html>
